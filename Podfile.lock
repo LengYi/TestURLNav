@@ -1,0 +1,16 @@
+PODS:
+  - URLNavigator (2.1.0)
+
+DEPENDENCIES:
+  - URLNavigator (~> 2.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - URLNavigator
+
+SPEC CHECKSUMS:
+  URLNavigator: e8cea3835b3456d7876eb728831e742273c8d209
+
+PODFILE CHECKSUM: 85bb12fe8f376b938e749978cd9f18cb4c027e25
+
+COCOAPODS: 1.5.3

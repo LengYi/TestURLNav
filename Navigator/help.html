@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script>
+; (function (win, doc) {
+    var docEl = doc.documentElement,
+        UA = navigator.userAgent,
+        isMeitu = /meitu|meipai/gi.test(UA);
+    var refreshRem = function () {
+            var w = docEl.getBoundingClientRect().width || 375;
+            var fontSize = w / 375 * 50;
+            docEl.style.fontSize = fontSize + 'px';
+            var finalFontSize = parseFloat(win.getComputedStyle(docEl).getPropertyValue('font-size'));
+            if (finalFontSize === fontSize || isMeitu) return;
+            fontSize = fontSize + (fontSize - finalFontSize);
+            docEl.style.fontSize = fontSize + 'px';
+            win.fontSize = fontSize;
+        }, refreshRemId;
+    win.addEventListener('resize', function () {
+        clearTimeout(refreshRemId);
+        refreshRemId = setTimeout(refreshRem, 100);
+    }, false);
+    win.addEventListener('pageshow', function (e) {
+        if (e.persisted) {
+            clearTimeout(refreshRemId);
+            refreshRemId = setTimeout(refreshRem, 100);
+        }
+    }, false);
+    refreshRem();
+})(window, document);
+</script>
+<style>
+* { padding:0; margin:0;}
+body {
+  font: normal 0.32rem/1.5 -apple-system, "Helvetica Neue", Arial, "PingFang SC", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color:#333;
+  -webkit-font-smoothing: antialiased;
+}
+.Message{
+  padding:.4rem;
+}
+.Message .title{
+  font-size:.4rem;
+  font-weight:500;
+  line-height:.56rem;
+  padding-top:.24rem;
+}
+.Message .time{
+  color:#999;
+  font-size:.28rem;
+  line-height:.4rem;
+  margin-top:.16rem;
+}
+.Message .content{
+  margin-top:.32rem;
+  line-height:.64rem;
+}
+.Message .content a{
+  color:#007FFD;
+}
+.Message .content img{
+  max-width:100%;
+}
+</style>
+</head>
+<body>
+    <div class="Message">
+        <h1 class="title">帮助文档</h1>
+        <p class="time">2018-10-32 11:15</p>
+        <div class="content">这是一篇本地H5帮助演示文档</div>
+    </div>
+</body>
+</html>

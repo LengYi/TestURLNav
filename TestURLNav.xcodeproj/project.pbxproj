@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C13407895C6BAFB7E7FCCBB6 /* Pods_TestURLNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2285CA72792DCB84D47AEA1A /* Pods_TestURLNav.framework */; };
+		CF2FE717218869860071BF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE716218869860071BF7E /* AppDelegate.swift */; };
+		CF2FE719218869860071BF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE718218869860071BF7E /* ViewController.swift */; };
+		CF2FE71C218869860071BF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2FE71A218869860071BF7E /* Main.storyboard */; };
+		CF2FE71E218869880071BF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2FE71D218869880071BF7E /* Assets.xcassets */; };
+		CF2FE721218869880071BF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2FE71F218869880071BF7E /* LaunchScreen.storyboard */; };
+		CF2FE72C218869880071BF7E /* TestURLNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE72B218869880071BF7E /* TestURLNavTests.swift */; };
+		CF2FE737218869880071BF7E /* TestURLNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE736218869880071BF7E /* TestURLNavUITests.swift */; };
+		CF2FE74621886B300071BF7E /* NavigatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE74521886B300071BF7E /* NavigatorConfig.swift */; };
+		CF2FE74821886E730071BF7E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE74721886E730071BF7E /* WebViewController.swift */; };
+		CF2FE74A21886EF00071BF7E /* HelpWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE74921886EF00071BF7E /* HelpWebViewController.swift */; };
+		CF2FE74C21886F170071BF7E /* AgreeWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE74B21886F170071BF7E /* AgreeWebViewController.swift */; };
+		CF2FE74E218870350071BF7E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FE74D218870350071BF7E /* TestViewController.swift */; };
+		CF8D1895218955A00009F962 /* agree.html in Resources */ = {isa = PBXBuildFile; fileRef = CF8D18932189559F0009F962 /* agree.html */; };
+		CF8D1896218955A00009F962 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = CF8D18942189559F0009F962 /* help.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2FE728218869880071BF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2FE70B218869860071BF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2FE712218869860071BF7E;
+			remoteInfo = TestURLNav;
+		};
+		CF2FE733218869880071BF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2FE70B218869860071BF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2FE712218869860071BF7E;
+			remoteInfo = TestURLNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0714BD7F5C09F04ADE548B98 /* Pods-TestURLNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestURLNav.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestURLNav/Pods-TestURLNav.release.xcconfig"; sourceTree = "<group>"; };
+		2285CA72792DCB84D47AEA1A /* Pods_TestURLNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestURLNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E596068FDC2C20C4FA1A1F8 /* Pods-TestURLNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestURLNav.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestURLNav/Pods-TestURLNav.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2FE713218869860071BF7E /* TestURLNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestURLNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FE716218869860071BF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2FE718218869860071BF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2FE71B218869860071BF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2FE71D218869880071BF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2FE720218869880071BF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2FE722218869880071BF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FE727218869880071BF7E /* TestURLNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestURLNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FE72B218869880071BF7E /* TestURLNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestURLNavTests.swift; sourceTree = "<group>"; };
+		CF2FE72D218869880071BF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FE732218869880071BF7E /* TestURLNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestURLNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2FE736218869880071BF7E /* TestURLNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestURLNavUITests.swift; sourceTree = "<group>"; };
+		CF2FE738218869880071BF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2FE74521886B300071BF7E /* NavigatorConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorConfig.swift; sourceTree = "<group>"; };
+		CF2FE74721886E730071BF7E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CF2FE74921886EF00071BF7E /* HelpWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpWebViewController.swift; sourceTree = "<group>"; };
+		CF2FE74B21886F170071BF7E /* AgreeWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeWebViewController.swift; sourceTree = "<group>"; };
+		CF2FE74D218870350071BF7E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CF8D18932189559F0009F962 /* agree.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = agree.html; sourceTree = "<group>"; };
+		CF8D18942189559F0009F962 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2FE710218869860071BF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13407895C6BAFB7E7FCCBB6 /* Pods_TestURLNav.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE724218869880071BF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE72F218869880071BF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8D312652C0F10AB7323CA06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E596068FDC2C20C4FA1A1F8 /* Pods-TestURLNav.debug.xcconfig */,
+				0714BD7F5C09F04ADE548B98 /* Pods-TestURLNav.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF2FE70A218869860071BF7E = {
+			isa = PBXGroup;
+			children = (
+				CF2FE74421886B180071BF7E /* Navigator */,
+				CF2FE715218869860071BF7E /* TestURLNav */,
+				CF2FE72A218869880071BF7E /* TestURLNavTests */,
+				CF2FE735218869880071BF7E /* TestURLNavUITests */,
+				CF2FE714218869860071BF7E /* Products */,
+				B8D312652C0F10AB7323CA06 /* Pods */,
+				FE46265C0E7D14FAA9D50F77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2FE714218869860071BF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FE713218869860071BF7E /* TestURLNav.app */,
+				CF2FE727218869880071BF7E /* TestURLNavTests.xctest */,
+				CF2FE732218869880071BF7E /* TestURLNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2FE715218869860071BF7E /* TestURLNav */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FE716218869860071BF7E /* AppDelegate.swift */,
+				CF2FE718218869860071BF7E /* ViewController.swift */,
+				CF2FE71A218869860071BF7E /* Main.storyboard */,
+				CF2FE71D218869880071BF7E /* Assets.xcassets */,
+				CF2FE71F218869880071BF7E /* LaunchScreen.storyboard */,
+				CF2FE722218869880071BF7E /* Info.plist */,
+			);
+			path = TestURLNav;
+			sourceTree = "<group>";
+		};
+		CF2FE72A218869880071BF7E /* TestURLNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FE72B218869880071BF7E /* TestURLNavTests.swift */,
+				CF2FE72D218869880071BF7E /* Info.plist */,
+			);
+			path = TestURLNavTests;
+			sourceTree = "<group>";
+		};
+		CF2FE735218869880071BF7E /* TestURLNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2FE736218869880071BF7E /* TestURLNavUITests.swift */,
+				CF2FE738218869880071BF7E /* Info.plist */,
+			);
+			path = TestURLNavUITests;
+			sourceTree = "<group>";
+		};
+		CF2FE74421886B180071BF7E /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				CF8D18932189559F0009F962 /* agree.html */,
+				CF8D18942189559F0009F962 /* help.html */,
+				CF2FE74521886B300071BF7E /* NavigatorConfig.swift */,
+				CF2FE74721886E730071BF7E /* WebViewController.swift */,
+				CF2FE74921886EF00071BF7E /* HelpWebViewController.swift */,
+				CF2FE74B21886F170071BF7E /* AgreeWebViewController.swift */,
+				CF2FE74D218870350071BF7E /* TestViewController.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		FE46265C0E7D14FAA9D50F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2285CA72792DCB84D47AEA1A /* Pods_TestURLNav.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2FE712218869860071BF7E /* TestURLNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FE73B218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNav" */;
+			buildPhases = (
+				7D6C034E7FD6111123A1B1B3 /* [CP] Check Pods Manifest.lock */,
+				CF2FE70F218869860071BF7E /* Sources */,
+				CF2FE710218869860071BF7E /* Frameworks */,
+				CF2FE711218869860071BF7E /* Resources */,
+				BDB690CBF925CC7D0C49C5B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestURLNav;
+			productName = TestURLNav;
+			productReference = CF2FE713218869860071BF7E /* TestURLNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2FE726218869880071BF7E /* TestURLNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FE73E218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNavTests" */;
+			buildPhases = (
+				CF2FE723218869880071BF7E /* Sources */,
+				CF2FE724218869880071BF7E /* Frameworks */,
+				CF2FE725218869880071BF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2FE729218869880071BF7E /* PBXTargetDependency */,
+			);
+			name = TestURLNavTests;
+			productName = TestURLNavTests;
+			productReference = CF2FE727218869880071BF7E /* TestURLNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2FE731218869880071BF7E /* TestURLNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2FE741218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNavUITests" */;
+			buildPhases = (
+				CF2FE72E218869880071BF7E /* Sources */,
+				CF2FE72F218869880071BF7E /* Frameworks */,
+				CF2FE730218869880071BF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2FE734218869880071BF7E /* PBXTargetDependency */,
+			);
+			name = TestURLNavUITests;
+			productName = TestURLNavUITests;
+			productReference = CF2FE732218869880071BF7E /* TestURLNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2FE70B218869860071BF7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "zj-db1140";
+				TargetAttributes = {
+					CF2FE712218869860071BF7E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CF2FE726218869880071BF7E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF2FE712218869860071BF7E;
+					};
+					CF2FE731218869880071BF7E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF2FE712218869860071BF7E;
+					};
+				};
+			};
+			buildConfigurationList = CF2FE70E218869860071BF7E /* Build configuration list for PBXProject "TestURLNav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2FE70A218869860071BF7E;
+			productRefGroup = CF2FE714218869860071BF7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2FE712218869860071BF7E /* TestURLNav */,
+				CF2FE726218869880071BF7E /* TestURLNavTests */,
+				CF2FE731218869880071BF7E /* TestURLNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2FE711218869860071BF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FE721218869880071BF7E /* LaunchScreen.storyboard in Resources */,
+				CF8D1896218955A00009F962 /* help.html in Resources */,
+				CF8D1895218955A00009F962 /* agree.html in Resources */,
+				CF2FE71E218869880071BF7E /* Assets.xcassets in Resources */,
+				CF2FE71C218869860071BF7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE725218869880071BF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE730218869880071BF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D6C034E7FD6111123A1B1B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestURLNav-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB690CBF925CC7D0C49C5B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestURLNav/Pods-TestURLNav-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestURLNav/Pods-TestURLNav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2FE70F218869860071BF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FE74E218870350071BF7E /* TestViewController.swift in Sources */,
+				CF2FE74821886E730071BF7E /* WebViewController.swift in Sources */,
+				CF2FE719218869860071BF7E /* ViewController.swift in Sources */,
+				CF2FE717218869860071BF7E /* AppDelegate.swift in Sources */,
+				CF2FE74621886B300071BF7E /* NavigatorConfig.swift in Sources */,
+				CF2FE74C21886F170071BF7E /* AgreeWebViewController.swift in Sources */,
+				CF2FE74A21886EF00071BF7E /* HelpWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE723218869880071BF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FE72C218869880071BF7E /* TestURLNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2FE72E218869880071BF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2FE737218869880071BF7E /* TestURLNavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2FE729218869880071BF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2FE712218869860071BF7E /* TestURLNav */;
+			targetProxy = CF2FE728218869880071BF7E /* PBXContainerItemProxy */;
+		};
+		CF2FE734218869880071BF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2FE712218869860071BF7E /* TestURLNav */;
+			targetProxy = CF2FE733218869880071BF7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2FE71A218869860071BF7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2FE71B218869860071BF7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2FE71F218869880071BF7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2FE720218869880071BF7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2FE739218869880071BF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF2FE73A218869880071BF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2FE73C218869880071BF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E596068FDC2C20C4FA1A1F8 /* Pods-TestURLNav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2FE73D218869880071BF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0714BD7F5C09F04ADE548B98 /* Pods-TestURLNav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2FE73F218869880071BF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestURLNav.app/TestURLNav";
+			};
+			name = Debug;
+		};
+		CF2FE740218869880071BF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestURLNav.app/TestURLNav";
+			};
+			name = Release;
+		};
+		CF2FE742218869880071BF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestURLNav;
+			};
+			name = Debug;
+		};
+		CF2FE743218869880071BF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestURLNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.TestURLNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestURLNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2FE70E218869860071BF7E /* Build configuration list for PBXProject "TestURLNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FE739218869880071BF7E /* Debug */,
+				CF2FE73A218869880071BF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FE73B218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FE73C218869880071BF7E /* Debug */,
+				CF2FE73D218869880071BF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FE73E218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FE73F218869880071BF7E /* Debug */,
+				CF2FE740218869880071BF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2FE741218869880071BF7E /* Build configuration list for PBXNativeTarget "TestURLNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2FE742218869880071BF7E /* Debug */,
+				CF2FE743218869880071BF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2FE70B218869860071BF7E /* Project object */;
+}
